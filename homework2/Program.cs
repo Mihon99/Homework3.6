@@ -4,8 +4,6 @@ int k2 = GetValue("Чему равен k2");
 int b2 = GetValue("Чему равен b2");
 double x = FindingCoordinatesX(k1, b1, k2, b2);
 double y = FindingCoordinatesY(k1, b1, k2, b2);;
-Console.WriteLine(x);
-Console.WriteLine(y);
 string s = PrintCoordinates(x, y);
 Console.WriteLine("Координаты точки пересечения = (" + s + ")");
 
